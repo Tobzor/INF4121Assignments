@@ -15,5 +15,11 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-# Other ignored files and types
+# Other ignored file(s)- and -types
 *.docx
+
+# Ignoring build files etc. from latex
+*.aux
+*.log
+*.pdf
+*.gz

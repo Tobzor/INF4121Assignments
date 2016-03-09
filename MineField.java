@@ -66,8 +66,8 @@ class MineField{
 		int count=0;
 		for(int irow=row-1;irow<=row+1;irow++){
 			for(int icol=col-1;icol<=col+1;icol++){
-				if(icol>=0&&icol<colMax&&irow>=0&&irow<rowMax){
-					if(mines[irow][icol]) count++;
+				if(icol>=0 && icol<colMax && irow>=0 && irow<rowMax && mines[irow][icol]){ //moved one place up
+					count++;
 				}
 			}
 		}

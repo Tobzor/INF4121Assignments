@@ -50,6 +50,7 @@ class MineField{
 		}
 	}
 	
+	//
 	private void boom() {
 		for(int row=0;row<rowMax;row++){
 			for(int col=0;col<colMax;col++){
@@ -62,6 +63,7 @@ class MineField{
 		show();
 	}
 	
+	//counts the number of mines ±1 row and ±col of the given coordinate
 	private int countMines(int row, int col){
 		int count=0;
 		for(int irow=row-1;irow<=row+1;irow++){
@@ -74,13 +76,14 @@ class MineField{
 		return count;
 	}
 	
-	//changed switch to if.
+	//changed switch to if. Prints the number of mines counted, else x
 	private char printNumberOfMines(int count){ 
 		if(count>=0 && count<9)
 			return Character.forDigit(count, 9);
 		return 'X';
 	}
 	
+	//checks which char that will be printed in the given pos.
 	private char drawChar(int row, int col) {
 		if(visible[row][col]){
 			if(mines[row][col]) //fixed formatting
@@ -100,7 +103,8 @@ class MineField{
 
 		return boom;
 	}
-
+	
+	//parses input when program gets input row col
 	public boolean legalMoveString(String input) {
 		String[] separated=input.split(" ");
 		int row;
@@ -136,6 +140,7 @@ class MineField{
 		return true;
 	}
 	
+	//prints the mine field.
 	public void show() {
 		System.out.println("\n    0 1 2 3 4 5 6 7 8 9 ");
 		System.out.println("   ---------------------");

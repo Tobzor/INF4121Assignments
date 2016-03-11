@@ -21,5 +21,4 @@ hs_err_pid*
 # Ignoring build files etc. from latex
 *.aux
 *.log
-*.pdf
 *.gz

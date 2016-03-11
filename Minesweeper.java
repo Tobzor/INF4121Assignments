@@ -11,11 +11,11 @@ public class Minesweeper {
 	}
     private static boolean gameCountinue() {
 		field = new MineField();
+		Scanner in = new Scanner(System.in);
 		int result = 0;
 		while (true) {
 			field.show();
 			System.out.print("\nPlease enter your move(row col): ");
-			Scanner in = new Scanner(System.in);
 			String input = in.nextLine();
 			if (input.equals("top")) {
 				rank.show();

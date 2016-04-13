@@ -1,8 +1,7 @@
-# INF4121_project1
-INF4121 Software Testing project 1
+# INF4121Assignments
+
+Look in these folders for the appropritate project.
+project1/
+project2/
 
 Group: Olav W. Eide, Øyvind Julsrud & Torbjørn N. Høiland
-
-Project: Minesweeper - Java
-
-Texteditor: LaTeX

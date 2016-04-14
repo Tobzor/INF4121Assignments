@@ -17,6 +17,7 @@
 <tr><td><a href="../../../selenium/INF4121Assignments/project2/selenium/changeQuantityOfItems">changeQuantityOfItems</a></td></tr>
 <tr><td><a href="../../../selenium/INF4121Assignments/project2/selenium/removeMultipleItems">removeMultipleItems</a></td></tr>
 <tr><td><a href="../../../selenium/INF4121Assignments/project2/selenium/placeOrder">placeOrder</a></td></tr>
+<tr><td><a href="logout">logout</a></td></tr>
 </tbody></table>
 </body>
 </html>

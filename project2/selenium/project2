@@ -8,6 +8,9 @@
 <body>
 <table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
 <tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="createUser">createUser</a></td></tr>
+<tr><td><a href="loginUser">loginUser</a></td></tr>
+<tr><td><a href="resetPassword">resetPassword</a></td></tr>
 <tr><td><a href="addToEmptyCart">addToEmptyCart</a></td></tr>
 <tr><td><a href="removeOneItem">removeOneItem</a></td></tr>
 <tr><td><a href="addSeveral">addSeveral</a></td></tr>

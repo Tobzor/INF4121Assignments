@@ -8,15 +8,15 @@
 <body>
 <table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
 <tr><td><b>Test Suite</b></td></tr>
-<tr><td><a href="createUser">createUser</a></td></tr>
-<tr><td><a href="loginUser">loginUser</a></td></tr>
-<tr><td><a href="resetPassword">resetPassword</a></td></tr>
-<tr><td><a href="addToEmptyCart">addToEmptyCart</a></td></tr>
-<tr><td><a href="removeOneItem">removeOneItem</a></td></tr>
-<tr><td><a href="addSeveral">addSeveral</a></td></tr>
-<tr><td><a href="changeQuantityOfItems">changeQuantityOfItems</a></td></tr>
-<tr><td><a href="removeMultipleItems">removeMultipleItems</a></td></tr>
-<tr><td><a href="placeOrder">placeOrder</a></td></tr>
+<tr><td><a href="../../../selenium/INF4121Assignments/project2/selenium/createUser">createUser</a></td></tr>
+<tr><td><a href="../../../selenium/INF4121Assignments/project2/selenium/loginUser">loginUser</a></td></tr>
+<tr><td><a href="../../../selenium/INF4121Assignments/project2/selenium/resetPassword">resetPassword</a></td></tr>
+<tr><td><a href="../../../selenium/INF4121Assignments/project2/selenium/addToEmptyCart">addToEmptyCart</a></td></tr>
+<tr><td><a href="../../../selenium/INF4121Assignments/project2/selenium/removeOneItem">removeOneItem</a></td></tr>
+<tr><td><a href="../../../selenium/INF4121Assignments/project2/selenium/addSeveral">addSeveral</a></td></tr>
+<tr><td><a href="../../../selenium/INF4121Assignments/project2/selenium/changeQuantityOfItems">changeQuantityOfItems</a></td></tr>
+<tr><td><a href="../../../selenium/INF4121Assignments/project2/selenium/removeMultipleItems">removeMultipleItems</a></td></tr>
+<tr><td><a href="../../../selenium/INF4121Assignments/project2/selenium/placeOrder">placeOrder</a></td></tr>
 </tbody></table>
 </body>
 </html>

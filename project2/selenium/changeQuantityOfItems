@@ -22,9 +22,19 @@
 	<td>label=4</td>
 </tr>
 <tr>
+	<td>verifySelectedLabel</td>
+	<td>name=quantity_in_cart[0]</td>
+	<td>4</td>
+</tr>
+<tr>
 	<td>selectAndWait</td>
 	<td>name=quantity_in_cart[2]</td>
 	<td>label=1</td>
+</tr>
+<tr>
+	<td>verifySelectedLabel</td>
+	<td>name=quantity_in_cart[2]</td>
+	<td>1</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>

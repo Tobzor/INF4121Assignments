@@ -126,7 +126,26 @@
 	<td>css=a.site-logo</td>
 	<td></td>
 </tr>
-
+<tr>
+	<td>clickAndWait</td>
+	<td>link=View Cart</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=td.goods-page-description</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//form[@id='Product_Quan']/table/tbody/tr[3]/td[2]/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//form[@id='Product_Quan']/table/tbody/tr[4]/td[2]/h3</td>
+	<td></td>
+</tr>
 </tbody></table>
 </body>
 </html>

@@ -41,11 +41,6 @@
 	<td>css=h3</td>
 	<td>Avactis T-Shirt</td>
 </tr>
-<tr>
-	<td>verifySelectedLabel</td>
-	<td>name=quantity_in_cart[0]</td>
-	<td>2</td>
-</tr>
 </tbody></table>
 </body>
 </html>

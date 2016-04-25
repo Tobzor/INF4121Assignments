@@ -24,7 +24,7 @@
 <tr>
 	<td>type</td>
 	<td>id=account_sign_in_form_email_id</td>
-	<td>asde@mail.com</td>
+	<td>tarzan1@mail.com</td>
 </tr>
 <tr>
 	<td>type</td>
@@ -37,9 +37,9 @@
 	<td></td>
 </tr>
 <tr>
-	<td>VerifyText</td>
+	<td>verifyElementPresent</td>
 	<td>link=Sign Out</td>
-	<td>&lt;a href=&quot;http://demo.avactis.com/4.7.9/sign-in.php?asc_action=customer_sign_out&quot;&gt;Sign Out&lt;/a&gt;</td>
+	<td></td>
 </tr>
 </tbody></table>
 </body>

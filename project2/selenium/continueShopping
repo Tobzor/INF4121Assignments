@@ -11,6 +11,21 @@
 <thead>
 <tr><td rowspan="1" colspan="3">continueShopping</td></tr>
 </thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/4.7.9/index.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=View Cart</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Continue Shopping</td>
+	<td></td>
+</tr>
 
 </tbody></table>
 </body>

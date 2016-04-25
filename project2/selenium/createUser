@@ -29,7 +29,7 @@
 <tr>
 	<td>type</td>
 	<td>name=customer_info[Customer][Email]</td>
-	<td>asdde@mail.com</td>
+	<td>tarzan1@mail.com</td>
 </tr>
 <tr>
 	<td>type</td>
@@ -80,6 +80,11 @@
 	<td>verifyText</td>
 	<td>css=div.note.note-success</td>
 	<td>Account created successfully. You are now registered.</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Sign Out</td>
+	<td></td>
 </tr>
 </tbody></table>
 </body>

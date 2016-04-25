@@ -18,43 +18,33 @@
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>css=a.btn.btn-primary</td>
+	<td>link=Sign In</td>
 	<td></td>
 </tr>
 <tr>
-	<td>sendKeys</td>
-	<td>id=input_text_req_empty_id_1497569234</td>
-	<td>my</td>
+	<td>type</td>
+	<td>id=account_sign_in_form_email_id</td>
+	<td>tarzan1@mail.com</td>
 </tr>
 <tr>
 	<td>type</td>
-	<td>id=input_text_req_empty_id_1996619067</td>
-	<td>name</td>
+	<td>id=account_sign_in_form_passwd_id</td>
+	<td>tarzan1</td>
 </tr>
 <tr>
-	<td>type</td>
-	<td>id=input_text_req_empty_id_1288371998</td>
-	<td>asdf@asdf.com</td>
+	<td>clickAndWait</td>
+	<td>//input[@value='Sign In']</td>
+	<td></td>
 </tr>
 <tr>
-	<td>type</td>
-	<td>id=input_text_req_empty_id_1364322804</td>
-	<td>12345</td>
+	<td>clickAndWait</td>
+	<td>link=View Cart</td>
+	<td></td>
 </tr>
 <tr>
-	<td>type</td>
-	<td>id=input_text_req_empty_id_1059243012</td>
-	<td>oslo</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=input_text_empty_id_174423028</td>
-	<td>street 1</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=input_text_req_empty_id_5884947</td>
-	<td>123</td>
+	<td>clickAndWait</td>
+	<td>css=div.form-group &gt; a.btn.btn-primary</td>
+	<td></td>
 </tr>
 <tr>
 	<td>click</td>
@@ -63,7 +53,17 @@
 </tr>
 <tr>
 	<td>click</td>
+	<td>css=div.shipping_same_as_billing.checkbox &gt; label</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
 	<td>//input[@value='Continue Checkout']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>document.checkout_2.elements['shippingModuleAndMethod[method_code]'][1]</td>
 	<td></td>
 </tr>
 <tr>
@@ -82,8 +82,23 @@
 	<td></td>
 </tr>
 <tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[4]/div/div/div/div/div/div/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
 	<td>clickAndWait</td>
 	<td>link=Continue Shopping</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.top-cart-content.empty</td>
 	<td></td>
 </tr>
 </tbody></table>

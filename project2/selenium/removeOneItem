@@ -27,6 +27,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>verifyElementNotPresent</td>
+	<td>link=Pure cotton T-Shirt</td>
+	<td></td>
+</tr>
+<tr>
 	<td>clickAndWait</td>
 	<td>css=a.site-logo</td>
 	<td></td>

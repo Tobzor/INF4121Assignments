@@ -13,12 +13,137 @@
 </thead><tbody>
 <tr>
 	<td>open</td>
-	<td>/4.7.9/index.php</td>
+	<td>/4.7.9/product-info.php?Pure_cotton_T-Shirt-pid47.html</td>
 	<td></td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>link=View Cart</td>
+	<td>css=a.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>billingInfo[Firstname]</td>
+	<td>my</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>billingInfo[Lastname]</td>
+	<td>name</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>billingInfo[Email]</td>
+	<td>hello@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>billingInfo[Postcode]</td>
+	<td>12345</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>billingInfo[City]</td>
+	<td>oslo</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>billingInfo[Streetline1]</td>
+	<td>street 1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>billingInfo[Phone]</td>
+	<td>123</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=checkbox_shipping_same_as_billing</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='Continue Checkout']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='checkout_2']/div[4]/div/div[3]/div/label[1]</td>
+	<td>my name</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='checkout_2']/div[4]/div/div[3]/div/label[2]</td>
+	<td>street 1</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='checkout_2']/div[4]/div/div[3]/div/label[4]</td>
+	<td>oslo, Alabama 12345</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='checkout_2']/div[4]/div/div[3]/div/label[6]</td>
+	<td>United States</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='checkout_2']/div[4]/div/div[3]/div/label[7]</td>
+	<td>123</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='checkout_2']/div[4]/div/div[3]/div/label[8]</td>
+	<td>hello@gmail.com</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='checkout_2']/div[4]/div/div[2]/div/label[1]</td>
+	<td>my name</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='checkout_2']/div[4]/div/div[2]/div/label[2]</td>
+	<td>street 1</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='checkout_2']/div[4]/div/div[2]/div/label[4]</td>
+	<td>oslo,</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='checkout_2']/div[4]/div/div[2]/div/label[5]</td>
+	<td>Alabama 12345</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='checkout_2']/div[4]/div/div[2]/div/label[7]</td>
+	<td>United States</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='checkout_2']/div[4]/div/div[2]/div/label[8]</td>
+	<td>123</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='checkout_2']/div[4]/div/div[2]/div/label[9]</td>
+	<td>hello@gmail.com</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.box.checkout_addresses &gt; div.content-page. &gt; div.billing_form.col-lg-6</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Continue Shopping</td>
 	<td></td>
 </tr>
 <tr>
